@@ -20,11 +20,11 @@
         <section class="header__main container">
             <nav class="nav">
 
-                <a href="./" class="nav__logo-link"">Portfolio<span>Camilo</span></a>
+                <a href="./" class="nav__logo-link">Portfolio<span>Omar</span></a>
 
-                <label class=" nav__label">
-                    <input type="checkbox" class="nav__checkbox">
-                </label>
+                
+                  <i class="bx bx-menu" id="menu-icon"></i>
+               
 
 
                 <ul class="nav__list">
@@ -45,7 +45,7 @@
                         <a href="#services" >Services</a>
                     </li>
                     <li class="nav__link">
-                        <a href="#portfolio"" ">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
 
                     <li class="nav__item ">
@@ -94,8 +94,8 @@
         <section class="home container" id="home">
     
             <article class="home-content">
-                <h1>Hello, It's <span>Camilo</span></h1>
-                <h3>I'm a <span>Frontend Developer</span></h3>
+                <h1>Hello, It"s <span>Omar</span></h1>
+                <h3>I"m a <span>Frontend Developer</span></h3>
     
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laborum recusandae temporibus aut
                     quidem eius dolorem porro at delectus eum, natus alias nisi? Numquam nulla eos quam, nobis provident
@@ -107,19 +107,19 @@
                 <section class="social-icons" >
     
                     <a href="#">
-                        <i class='bx bxl-github'></i>
+                        <i class="bx bxl-github" ></i>
                     </a>
     
                     <a href="#">
-                        <i class='bx bxl-linkedin-square'></i>
+                        <i class="bx bxl-linkedin-square"></i>
                     </a>
     
                     <a href="#">
-                        <i class='bx bxl-instagram'></i>
+                        <i class="bx bxl-instagram"></i>
                     </a>
     
                     <a href="#">
-                        <i class='bx bxl-twitter'></i>
+                        <i class="bx bxl-twitter"></i>
                     </a>
     
                 </section>
@@ -169,34 +169,40 @@
         <!-- section services starts here -->
     
     
-        <section class="services container" id="services">
+        <section class="services container " id="services">
     
             <h2 class="heading">Our <span>Services</span></h2>
     
             <div class="services-container">
     
                 <div class="services-box">
-                    <i class='bx bxs-devices'></i>
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatem. Eaque,
-                        necessitatibus</p>
+                    <div class="service-info">
+                        <i class="bx bxs-devices"></i>
+                        <h4>Web Development</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatem. Eaque,
+                            necessitatibus</p>
+                    </div>
+                </div>
+    
+                <div class="services-box">
+                    <div class="service-info">
+                        <i class="bx bx-code"></i>
+                        <h4>Frontend Development</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatem. Eaque,
+                            necessitatibus</p>
+
+                    </div>
+                  
     
                 </div>
     
                 <div class="services-box">
-                    <i class='bx bx-code'></i>
-                    <h3>Frontend Development</h3>
+                    <div class="service-info">
+                        <i class="bx bx-code-curly"></i>
+                    <h4>Backend Development</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatem. Eaque,
                         necessitatibus</p>
-    
-                </div>
-    
-                <div class="services-box">
-                    <i class='bx bx-code-curly'></i>
-                    <h3>Backend Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatem. Eaque,
-                        necessitatibus</p>
-    
+                    </div>
                 </div>
     
     
@@ -255,7 +261,71 @@
             </div>
     
         </section>
+
+        <section class="contact container" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" name="name" id="name" placeholder="Full Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Phone Number">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="input-group-2">
+                    <textarea name=""  cols="30" rows="10" placeholder="Your Message"></textarea>
+                   <input type="submit" value="Send Message" class="btn">
+
+                </div>
+            </form>
+        </section>
+
 </main>     
+
+<footer class="footer">
+    <section class="social-icons" >
+    
+        <a href="#">
+            <i class="bx bxl-github"></i>
+        </a>
+
+        <a href="#">
+            <i class="bx bxl-linkedin-square"></i>
+        </a>
+
+        <a href="#">
+            <i class="bx bxl-instagram"></i>
+        </a>
+
+        <a href="#">
+            <i class="bx bxl-twitter"></i>
+        </a>
+
+    </section>
+
+    <ul class="list">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+        <li>
+            <a href="#services">Services</a>
+        </li>
+        <li>
+            <a href="#about">About Me</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+    <p class="copyright">
+        &copy Omar Ortez | All Rights Reserved
+    </p>
+
+</footer>
 
         <script src="script.js"></script>
 </body>
