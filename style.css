@@ -683,22 +683,21 @@ ul.nav__list {
      #menu-icon {
         display: block;
      }
-     ul .nav__list{
-        display: flex;
-        flex-direction: column;
+     #menu-icon{
+        order: 1;
      }
     
     .nav__list {
         position: absolute;
         top: 100%;
         right: 0;
-        width: 50%;
+        width: 30%;
         padding: 1rem 3rem;
         background-color: var(--bg-color-black) ;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
         border-bottom-left-radius: 2rem;
-        /* display: none; */
+        display: none;
     }
     
     .nav__list a {

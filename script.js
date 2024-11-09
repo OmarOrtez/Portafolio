@@ -2,6 +2,18 @@
 // Controlador de la barra de progreso
 
 document.addEventListener("DOMContentLoaded", function () {
+
+    //barra de navegacion 
+    const menuIcon=document.querySelector('#menu-icon')
+    const navegacion=document.querySelector('.nav__list')
+
+    menuIcon.onclick=()=>{
+        menuIcon.classList.toggle('bx-x')
+        navegacion.classList.toggle('active')
+    }
+
+
+
     const moonIcon = document.getElementById("moonIcon");
     const sunIcon = document.getElementById("sunIcon");
     const paletteIcon = document.getElementById("paletteIcon");
