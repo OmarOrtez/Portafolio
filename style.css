@@ -431,6 +431,11 @@ ul.nav__list {
     text-align: left;
 }
 
+.about-content h3  {
+    font-size: 2rem;
+    text-align: left;
+}
+
 .about-content p{
     font-size: 1.8rem;
     
